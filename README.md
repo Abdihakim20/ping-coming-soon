@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution link](https://github.com/Abdihakim20/Four-card--eature)
+- Solution URL: [Solution link](https://github.com/Abdihakim20/ping-coming-soon)
 - Live Site URL: [Live site link](https://abdihakim20.github.io/order-summery-card/)
 
 ### Built with
@@ -39,6 +39,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS3 Plain.
 - Flexbox
+- Js
 
 ## Author
 
