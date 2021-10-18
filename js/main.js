@@ -7,18 +7,22 @@ function showError(input, message) {
     const small =formControl.querySelector('small');
     small.innerText = message;
   }
-// Check email is valid
-function checkEmail(input) {
+
+//   Check validity
+function isValidEmail(email) {
     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    if (re.test(input.value.trim())) {
-      alert('successs');
-    }else{
-      showError(input, 'Email is not valid');
-    }
-  }
+    return re.test(String(email).toLowerCase());
+}
 form.addEventListener('submit', function(){
-    checkEmail(email);
-     email.value = ''
+    
+  if(email.value === ''){
+    showError(email,'Whoops! It looks like you forgot to add your email');
+  }else if(!isValidEmail(email.value)){
+    showError(email,'Please provide a valid email address');
+  }
+  else{
+    alert('Success');
+  }
 });
 
 
