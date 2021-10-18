@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop View](./screenshot.png)
+![Desktop View](../design/desktop-design.jpg)
 
 ### Links
 
 - Solution URL: [Solution link](https://github.com/Abdihakim20/ping-coming-soon)
-- Live Site URL: [Live site link](https://abdihakim20.github.io/order-summery-card/)
+- Live Site URL: [Live site link](https://abdihakim20.github.io/ping-coming-soon/)
 
 ### Built with
 
